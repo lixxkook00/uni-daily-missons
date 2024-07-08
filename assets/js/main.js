@@ -43,26 +43,18 @@ function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) 
 
 // loading animation
 window.addEventListener('load', (event) => {
-  bind1('.loading').style.display = "none";
+  setTimeout(() => {
+    bind1('.loading').style.display = "none";
+  }
+  ,
+  50
+)
 
 //   animateNumber(1374016, 1000, 0, function(number) {
 //     // const formattedNumber = number.toLocaleString()
 //     document.getElementById('stakers').innerText = number;
 //   })
 });
-
-// handle animation on scroll
-let animationWorkFlow = false;
-
-document.addEventListener('scroll', function() {
-
-  if(bind1("#about").getBoundingClientRect().top < 200 && !animationWorkFlow){
-    bind1('#workflow-img').classList.add('active')
-    animationWorkFlow = true
-  }
-})
-
-
 
 // SLIDER
 var swiperUni = new Swiper(".uni-slide", {

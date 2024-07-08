@@ -49,8 +49,9 @@
     border: 4px solid var(--primary-color);
 }
 
-.intro {
+.content {
     margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .mission {
@@ -59,6 +60,11 @@
 
 .mission-btn {
     position: absolute;
+}
+
+.mission-btn img {
+    animation: pulse 1s ease-out;
+    animation-iteration-count: infinite; 
 }
 
 .start {
@@ -75,6 +81,7 @@
 
 .footer {
     background-color: var(--primary-color);
+    margin-top: 40px;
 }
 
 .footer span {
@@ -104,6 +111,7 @@
     background-color: #fff;
     padding: 5px;
     border-radius: 8px;
+    margin: 10px 0;
 }
 
 .footer .form input {
@@ -113,3 +121,176 @@
     color: var(--primary-color);
     font-size: 14px;
 }
+
+.mission-logo img {
+    max-width: 500px;
+}
+
+.mission .mw {
+    max-width: 800px;
+    width: 100%;
+}
+
+.mission-result {
+    background-color: #4878e77c;
+    border-radius: 20px;
+}
+
+.mission-result-item {
+    width: 50%;
+    padding: 15px;
+}
+
+.mission-result-item:first-child {
+    border-right: 1px solid #fff;
+}
+
+.mission-result-item-title {
+    font-weight: 400;
+    text-align: center;
+}
+
+.mission-result-item-value {
+    color: #F8A408;
+    text-align: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mission-title {
+    max-width: 450px;
+    width: 100%;
+}
+
+.mission-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    color: #000;
+
+    max-width: 500px;
+}
+
+.mission-card-icon {
+    width: 40px;
+}
+
+.mission-card .primary-button {
+    color: #fff;
+    padding: 15px 3px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.mission-card-name {
+    font-weight: 600;
+}
+
+.mission-card-times {
+    font-weight: 300;
+}
+
+.mission-card-award {
+    font-weight: 600;
+    font-size: 12px;
+    
+    border-radius: 10px;
+    padding: 2px 10px 2px 2px;
+
+    display: flex;
+    align-items: center;
+}
+
+.mission-card-award img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.mission-card-award.gold {
+    background-color: #FFF7C9;
+}
+
+.mission-card-award.blue {
+    background-color: #AECEFF;
+}
+
+.mission-card-award+.mission-card-award {
+    margin-left: 5px;
+}
+
+.gifts {
+    background-color: rgba(0, 102, 255, 0.461);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.gift {
+    height: 200px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 20px;
+}
+
+.gift-card {
+    padding: 20px;
+    background-color: rgba(0, 102, 255, 0.255);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.gift-card-name {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg, rgba(227,88,4,1) 0%, rgba(254,149,3,1) 100%);
+    padding: 8px 40px 8px 20px;
+    font-weight: 600;
+    font-size: 26px;
+    border-bottom-right-radius: 60px;
+}
+
+.gift-card-img {
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.gift-card-price {
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 1px 0px #F8A408;
+}
+
+.gift-card-note {
+    font-weight: 400;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.gift-card-title {
+    font-weight: 600;
+    text-align: center;
+}
+
+.gift-card-content {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
