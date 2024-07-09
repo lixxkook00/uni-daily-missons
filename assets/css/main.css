@@ -379,7 +379,26 @@ width: 140%;
     width: fit-content;
 }
 
+.primary-title {
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0 20px;
+    text-shadow: 2px 1px 0px #F8A408;
+}
 
+.partner-wrapper {
+    align-items: center;
+}
+
+.partner-arrow {
+    display: flex;
+    align-items: center;
+    width: 70px;
+}
+
+.partner-arrow img {
+    width: 100%;
+}
 
 
 

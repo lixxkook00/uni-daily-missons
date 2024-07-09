@@ -49,11 +49,6 @@ window.addEventListener('load', (event) => {
   ,
   50
 )
-
-//   animateNumber(1374016, 1000, 0, function(number) {
-//     // const formattedNumber = number.toLocaleString()
-//     document.getElementById('stakers').innerText = number;
-//   })
 });
 
 // SLIDER
@@ -77,4 +72,33 @@ var swiperProduct = new Swiper(".product-slide", {
     },
     loop: true,
     speed: 2000,
-  });
+});
+
+var partnerProduct = new Swiper(".partner-slide", {
+    slidesPerView: 2,
+      spaceBetween: 0,
+    // auto
+    autoplay: {
+      delay: 500,
+    },
+    loop: true,
+    speed: 1000,
+    breakpoints: {
+        120: {
+            slidesPerView: 2,
+            spaceBetween: 2
+        },
+        740: {
+            slidesPerView: 6,
+            spaceBetween: 10
+        },
+        1023: {
+            slidesPerView: 6,
+            spaceBetween: 10
+        }
+    },
+    navigation: {
+        nextEl: ".partner-arrow-left",
+        prevEl: ".partner-arrow-right",
+    },
+});
