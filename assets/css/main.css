@@ -241,7 +241,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(90deg, rgba(227,88,4,1) 0%, rgba(254,149,3,1) 100%);
+    background: linear-gradient(90deg, #FFE127 0%, rgba(227,88,4,1) 100%);
     padding: 8px 40px 8px 20px;
     font-weight: 600;
     font-size: 26px;
@@ -276,6 +276,137 @@
 .gift-card-content {
     font-size: 14px;
 }
+
+.tutorial-steps .second-button {
+    margin-right: 5px;
+}
+
+
+.tutorial-steps {
+border-right: 1px dashed #fff;
+position: relative;
+}
+
+.tutorial-title {
+position: absolute;
+right: 0;
+top: -10px;
+font-size: 13px;
+border: 1px solid #FFDF16;
+border-radius: 15px;
+padding: 5px 10px;
+}
+
+.tutorial-title::before {
+content: '';
+position: absolute;
+top: 50%;
+left: -140%;
+height: 2px;
+background-color: #FFDF16;
+width: 140%;
+}
+
+.second-button.tutorial-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -105%;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, #FFE127 0%, rgba(227,88,4,1) 100%);
+}
+
+.second-button.tutorial-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -105%;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, #FFE127 0%, rgba(227,88,4,1) 100%);
+}
+
+.confirm {
+    background-color: #004AB8;
+    border-radius: 20px;
+}
+
+.confirm-title {
+    padding: 10px;
+    position: relative;
+    height: 40px;
+}
+
+.confirm-title::before {
+    content: "";
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    height: 50%;
+    background-color: #EE8713;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.confirm-title::after {
+    content: "";
+    width: 30%;
+    position: absolute;
+    top: 42%;
+    left: 35%;
+    height: 50%;
+    background-color: #EE8713;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.confirm-title-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.border-circle {
+    font-size: 12px;
+    border: 1px solid #FFDF16;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

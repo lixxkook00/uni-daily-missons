@@ -313,12 +313,21 @@ a:hover{
   min-width: 100px;
   
   transition: all 0.3s;
-  background: linear-gradient(90deg, rgba(254,149,3,1) 0%, rgba(227,88,4,1) 100%);
+  background: linear-gradient(90deg, #FFE127 0%, rgba(227,88,4,1) 100%);
+}
+
+.second-bg {
+  background: linear-gradient(90deg, #FFE127 0%, rgba(227,88,4,1) 100%);
+}
+
+.second-button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
  }
 
 .primary-button:hover{
  cursor: pointer;
- /* letter-spacing: 1px; */
+ transform: scale(0.95);
  background-color: var(--primary-color);
 }
 
@@ -533,4 +542,13 @@ button:focus {
 
 .primary-box-cursor {
   cursor: pointer;
+}
+
+.w-fit-content {
+  width: fit-content;
+  min-width: auto;
+}
+
+.line-height-35 {
+  line-height: 35px;
 }

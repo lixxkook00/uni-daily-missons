@@ -90,6 +90,15 @@
         max-width: 100%;
         width: 100%;
     }
+
+    .tutorial-steps {
+        border-right: none;
+    }
+
+    .confirm-title::after {
+        width: 70%;
+        left: 15%;
+    }
 }
 
 
