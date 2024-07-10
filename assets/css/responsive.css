@@ -36,6 +36,10 @@
         display: none !important;
     }
 
+
+    .m-pc-width-40 {
+        max-width: 40%;
+    }
 }
 
 /* Tablet to PC low resolution */
@@ -98,6 +102,24 @@
     .confirm-title::after {
         width: 70%;
         left: 15%;
+    }
+
+    .mission-buttons {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .mission-button {
+        padding: 7px;
+    }
+
+    .mission-result-icon {
+        width: 45px;
+    }
+
+    .confirm-title-value {
+        font-size: 16px;
+        width: 100%;
     }
 }
 

@@ -138,7 +138,7 @@
 
 .mission-result-item {
     width: 50%;
-    padding: 15px;
+    padding: 10px;
 }
 
 .mission-result-item:first-child {
@@ -173,6 +173,7 @@
 
 .mission-card-icon {
     width: 40px;
+    margin-right: 5px;
 }
 
 .mission-card .primary-button {
@@ -193,16 +194,14 @@
 .mission-card-award {
     font-weight: 600;
     font-size: 12px;
-    
     border-radius: 10px;
-    padding: 2px 10px 2px 2px;
-
+    padding: 3px 10px 3px 3px;
     display: flex;
     align-items: center;
 }
 
 .mission-card-award img {
-    width: 20px;
+    width: 15px;
     margin-right: 5px;
 }
 
@@ -246,6 +245,7 @@
     font-weight: 600;
     font-size: 26px;
     border-bottom-right-radius: 60px;
+    z-index: 2;
 }
 
 .gift-card-img {
@@ -297,15 +297,7 @@ border-radius: 15px;
 padding: 5px 10px;
 }
 
-.tutorial-title::before {
-content: '';
-position: absolute;
-top: 50%;
-left: -140%;
-height: 2px;
-background-color: #FFDF16;
-width: 140%;
-}
+.tutorial-title::before {content: '';position: absolute;top: 50%;left: -300%;height: 2px;background-color: #FFDF16;width: 300%;}
 
 .second-button.tutorial-button::before {
     content: '';
@@ -400,7 +392,46 @@ width: 140%;
     width: 100%;
 }
 
+.object-cover {
+    object-fit: cover;
+    height: 100%;
+}
 
+.mission-result-icon {
+    width: 55px;
+}
+
+.mission-buttons {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000;
+    font-weight: 800;
+    font-size: 24px;
+    padding: 15px 30px;
+}
+
+.mission-button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.mission-button.yellow {
+    background-color: #FFF7CA;
+}
+
+.mission-button.blue {
+    background-color: #AECEFF;
+}
+
+.mission-button-img {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.mission-card .primary-button {
+    min-width: 50px;
+    padding: 15px 10px;
+}
 
 
 
