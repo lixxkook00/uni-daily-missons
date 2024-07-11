@@ -50,7 +50,7 @@
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 40px;
 }
 
@@ -231,7 +231,7 @@
 
 .gift-card {
     padding: 20px;
-    background-color: rgba(0, 102, 255, 0.255);
+    background-color: rgb(0 70 176 / 71%);
     border-radius: 25px;
     overflow: hidden;
 }
@@ -320,7 +320,7 @@ padding: 5px 10px;
 }
 
 .confirm {
-    background-color: #004AB8;
+    background-color: rgb(0 70 176 / 71%);
     border-radius: 20px;
 }
 
@@ -380,6 +380,9 @@ padding: 5px 10px;
 
 .partner-wrapper {
     align-items: center;
+    padding: 15px 10px;
+    border-radius: 20px;
+    background-color: rgb(0 70 176 / 71%);
 }
 
 .partner-arrow {
@@ -433,6 +436,13 @@ padding: 5px 10px;
     padding: 15px 10px;
 }
 
+.mt-100px {
+    margin-top: 100px;
+}
+
+.mission-card-content {
+    margin: 0 10px;
+}
 
 
 

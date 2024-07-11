@@ -76,11 +76,20 @@
 html,body{
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: var(--primary-color);
+  background-color: transparent;
   color: #fff;
   overflow-x: hidden;
   /* font-family: 'Roboto'; */
   font-family: 'Space Grotesk';
+}
+
+html {
+  background-color: var(--primary-color);
+}
+
+body {
+  background: url(/assets/images/bg-main.jpg) top center no-repeat;
+  background-size: 100% auto;
 }
 
 .soft-menu__item a{
