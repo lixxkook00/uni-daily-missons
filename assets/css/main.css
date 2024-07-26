@@ -82,6 +82,8 @@
 .footer {
     background-color: var(--primary-color);
     margin-top: 40px;
+    background: url(/assets/images/bg-footer.jpg) no-repeat center center;
+    background-size: 100% auto;
 }
 
 .footer span {
@@ -442,6 +444,11 @@ padding: 5px 10px;
 
 .mission-card-content {
     margin: 0 10px;
+}
+
+.complete img {
+    max-width: 700px;
+    width: 100%;
 }
 
 

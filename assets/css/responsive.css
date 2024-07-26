@@ -83,6 +83,11 @@
         width: 40px;
     }
 
+    .footer {
+        background-size: auto 100%;
+        background-position: 30% center;
+    }
+
     .footer-logo {
         display: flex;
         justify-content: center;
